@@ -4,7 +4,7 @@
 
 #define WIDTH 100
 #define HEIGHT 30
-#define RECT_WIDTH 11
+#define RECT_WIDTH 11 
 #define RECT_HEIGHT 5
 #define PI 3.14159265358979323846
 
