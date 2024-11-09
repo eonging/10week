@@ -2,7 +2,7 @@
 #include <math.h>
 #include <windows.h>
 
-#define WIDTH 100
+#define WIDTH 100 
 #define HEIGHT 30
 #define RECT_WIDTH 11 
 #define RECT_HEIGHT 5
