@@ -82,13 +82,13 @@ void drawLine(char grid[HEIGHT][WIDTH], int x0, int y0, int x1, int y1) {
 
 // 화면 그리기
 void draw(float angle) {
-    clearScreen();
+    clearScreen(); //콘솔화면 초기화
 
     // P 위치 (콘솔 중앙)
     int pX = WIDTH / 2;
     int pY = HEIGHT / 2;
 
-    // 직사각형의 4개 점 (중심 기준, 변의 길이 11, 5)
+    // 직사각형의 네 꼭짓점 정의 (중심 기준, 변의 길이 11, 5)
     vec3 rect[4] = {
         { -5.5f, -2.5f, 1.0f }, // 왼쪽 위
         { -5.5f,  2.5f, 1.0f }, // 왼쪽 아래
